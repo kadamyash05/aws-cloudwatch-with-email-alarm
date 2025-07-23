@@ -47,12 +47,11 @@ Make sure the following are ready:
 
 ## 📜 Step 4: Trigger Alarm via Python (cpu_utilization.py)
 
-Use the provided `cpu_utilization.py` from your repo. This script simulates or tracks CPU usage and can be scheduled via cron or run manually.
+Use the provided `cpu_utilization.py` from your repo. This script simulates spike the cpu utlilization so we could simulate the behviour and now run the file manually.
 
 Example crontab entry (optional):
 ```bash
-crontab -e
-*/5 * * * * python3 /home/ec2-user/cpu_utilization.py
+pyhton3 cpu_utilization.py
 ```
 
 ---
